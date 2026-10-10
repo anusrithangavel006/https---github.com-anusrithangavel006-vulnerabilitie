@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "severity": "HIGH",
+      "resource": "web-portal",
+      "finding": "Strict-Transport-Security header was not observed."
+    },
+    {
+      "severity": "REVIEW",
+      "resource": "security-group-123",
+      "finding": "Ingress rule allows a broad source range; confirm that public access is required."
+    },
+    {
+      "severity": "CRITICAL",
+      "cve_id": "CVE-2021-44228",
+      "finding": "Check whether affected Log4j2 versions are present and apply vendor guidance."
+    }
+  ]
+}
